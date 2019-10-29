@@ -12,7 +12,7 @@ setup(
 	  name = 'spoken_to_written_correction',
       packages = ['spoken_to_written_correction'],
       version='0.1',
-      license=open('LICENSE.txt').read(),
+      #license=open('LICENSE.txt').read(),
       description='Correct Spoken English given as text to Written English ',
       author='Mushtaq Patel',
       author_email='mushtaqpatel0505@gmail.com',
@@ -21,6 +21,6 @@ setup(
      					 'Intended Audience :: Developers',
       					'Programming Language :: Python'
   				],
-	  long_description=open_file('README.md').read()
+	  #long_description=open_file('README.md').read()
 
      )
