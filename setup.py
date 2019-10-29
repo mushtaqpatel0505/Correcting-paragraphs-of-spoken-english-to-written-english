@@ -9,8 +9,8 @@ def open_file(fname):
     return open(os.path.join(os.path.dirname(__file__), fname))
 
 setup(
-	  name = 'spoken_to_written',
-      packages = ['spoken_to_written'],
+	  name = 'spoken_to_written_correction',
+      packages = ['spoken_to_written_correction'],
       version='0.1',
       license=open('LICENSE.txt').read(),
       description='Correct Spoken English given as text to Written English ',
@@ -21,6 +21,6 @@ setup(
      					 'Intended Audience :: Developers',
       					'Programming Language :: Python'
   				],
-	  long_description=open_file('README.rst').read()
+	  long_description=open_file('README.md').read()
 
      )
